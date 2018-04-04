@@ -15,4 +15,4 @@ phases:
       - echo Build completed on `date`
 artifacts:
   file:
-    - target/AWSExample.jar
+    - /root/.m2/repository/com/sahsec/AWSExample/1.0-SNAPSHOT/AWSExample-1.0-SNAPSHOT.jar
