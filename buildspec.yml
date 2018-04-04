@@ -8,11 +8,11 @@ phases:
     commands:
       - echo Entered the build phase...
       - echo Build started on `date`
-      - mvn compile
+      - mvn install
   post_build:
     commands:
       - echo Entered the post_build phase...
       - echo Build completed on `date`
 artifacts:
-  files:
-    - target/AWSExample.jar
+  path:
+    - target/AWSExample
