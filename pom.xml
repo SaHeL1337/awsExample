@@ -7,7 +7,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <name>AWSExample</name>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
     <url>http://maven.apache.org</url>
 
     <build>
